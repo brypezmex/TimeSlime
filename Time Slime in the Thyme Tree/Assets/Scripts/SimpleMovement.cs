@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class SimpleMovement : MonoBehaviour
 {
-    public float speed;
-    private float Move;
+    
+    [SerializeField] private float speed;
 
     private Rigidbody2D rb;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
 
@@ -16,7 +17,10 @@ public class SimpleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(Move * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.linearVelocity.y);
+
+        if(Input.GetKey(KeyCode.Space)) {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, speed);
+        }
     }
 }

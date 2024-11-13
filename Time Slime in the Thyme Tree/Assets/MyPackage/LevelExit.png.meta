@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 681584c5a9ec08e4eb386e9c3fa6ca57
+guid: ce869be2b4623a84598008d42f771ed5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2019470769045288582
-    second: Start Screen 2.0_0
+      213: 5627195950287979073
+    second: LevelExit_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Start Screen 2.0_0
+      name: LevelExit_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 40
+        y: 30
+        width: 42
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 686ba3ff6f9960c10800000000000000
-      internalID: 2019470769045288582
+      spriteID: 1428e6217e0d71e40800000000000000
+      internalID: 5627195950287979073
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Start Screen 2.0_0: 2019470769045288582
+      LevelExit_0: 5627195950287979073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
